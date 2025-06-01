@@ -5,6 +5,7 @@ import datetime
 from sklearn.base import TransformerMixin, BaseEstimator
 import joblib
 
+
 import numpy as np
 
 
@@ -193,7 +194,7 @@ elif page == "🔮 Purchase Predictor":
     import pickle
 
     # Load saved pipeline (preprocessor + model)
-    with open("E:\\e& task\\voting_pipeline.pkl", "rb") as f:
+    with open("voting_pipeline.pkl", "rb") as f:
         model = joblib.load(f)
     # with open("E:\\e& task\\best_adaboost_model.pkl", "rb") as f:
           
