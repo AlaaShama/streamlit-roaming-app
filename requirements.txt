@@ -5,4 +5,4 @@ plotly
 sklearn
 streamlit
 imblearn
-category_encoders
+
