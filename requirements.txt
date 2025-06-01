@@ -4,3 +4,4 @@ pandas
 plotly
 scikit_learn
 streamlit
+imbalanced-learn
